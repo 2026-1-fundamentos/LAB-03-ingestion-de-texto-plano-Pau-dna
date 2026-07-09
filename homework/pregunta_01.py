@@ -107,4 +107,4 @@ def pregunta_01():
     df['principales_palabras_clave'] = df['principales_palabras_clave'].apply(normalizar_palabras_clave)
     df['principales_palabras_clave'] = df['principales_palabras_clave'].str.rstrip(' .')
 
-    return d
+    return df
